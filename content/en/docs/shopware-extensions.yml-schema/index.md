@@ -4,6 +4,7 @@
 
 # Objects
 * [`.shopware-extension.yml`](#reference-config) (root object)
+* [`build`](#reference-build)
 * [`store`](#reference-store)
 * [`StoreInfoFaqQuestion`](#reference-storeinfofaqquestion)
 
@@ -16,13 +17,39 @@
 
 |   |Type|Description|Required|
 |---|---|---|---|
+|**build**|`Build`||No|
 |**store**|`Store`||No|
 
 Additional properties are not allowed.
 
+### Config.build
+
+* **Type**: `Build`
+* **Required**: No
+
 ### Config.store
 
 * **Type**: `Store`
+* **Required**: No
+
+
+
+
+---------------------------------------
+<a name="reference-build"></a>
+## build
+
+**`build` Properties**
+
+|   |Type|Description|Required|
+|---|---|---|---|
+|**zip**|`object`||No|
+
+Additional properties are not allowed.
+
+### Build.zip
+
+* **Type**: `object`
 * **Required**: No
 
 
