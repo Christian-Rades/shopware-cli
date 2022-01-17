@@ -25,3 +25,11 @@ Creates a zip file from extension folder
 Parameters:
 
 * path - Path to extension folder
+
+## extension build
+
+Builds the JS and CSS assets into the extension folder
+
+Parameters:
+
+* path - Path to extension folder. This can be also multiple directories
