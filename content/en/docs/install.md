@@ -1,6 +1,6 @@
 ---
 title: Install
-weight: 0
+weight: 9
 ---
 
 You can install the pre-compiled binary (in several different ways), use Docker or compile from source.
