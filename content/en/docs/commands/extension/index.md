@@ -1,5 +1,6 @@
 ---
 title: Extension Commands
+weight: 20
 ---
 
 ## extension validate

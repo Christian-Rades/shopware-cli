@@ -1,5 +1,6 @@
 ---
 title: Extension Store Quick Start
+weight: 10
 ---
 
 In this Guide we will learn how Shopware CLI can make the extension deployment easier with the Shopware Store. 

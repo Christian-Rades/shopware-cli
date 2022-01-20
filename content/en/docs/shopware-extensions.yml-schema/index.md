@@ -1,5 +1,6 @@
 ---
- title: 'Schema of .shopware-extensions.yml' 
+title: 'Schema of .shopware-extensions.yml'
+weight: 500 
 ---
 
 # Objects
