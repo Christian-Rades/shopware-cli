@@ -11,12 +11,12 @@ First you need to [install](../install) the CLI.
 First we need to login into our Shopware account. For this execute the command `shopware-cli account login` and login with your credentials. This credentials will be saved locally. With `shopware-cli account logout` can you logout again. For the CI you can set enviroment variables `SHOPWARE_CLI_ACCOUNT_EMAIL` and `SHOPWARE_CLI_ACCOUNT_PASSWORD` skip the login step.
 
 
-## Optional: change the active Shopware Account company
+## Optional: Change the active Shopware Account company
 
 Your Shopware account can be in multiple companies. Use the command `shopware-cli account company list` to show all companys you have access.
 With `shopware-cli account company use <id>` can you switch the current company access.
 
-## Optional: create the extension in the Account
+## Optional: Create the extension in the Account
 
 To upload the zip later in the Store, you need to create the extension in the Account. If you haven't done this you can do this with
 
@@ -26,7 +26,7 @@ shopware-cli extension create <Name> platform
 
 possible values are: `classic` (Shopware 5) `platform` (Shopware 6 Plugin system) `themes` (Shopware 6 App containg theme) `apps` (Shopware 6 App)
 
-# Getting the Store Information into the Git repository
+## Getting the Store Information into the Git repository
 
 To edit the Store page locally, we need first to generate the local files based on the current store page. 
 For this we can use the command `shopware-cli account producer extension info pull <extension-folder>`.
